@@ -1,0 +1,4 @@
+<input type="text" class="searchbox" placeholder="Search" [(ngModel)]="filter" [ngModelOptions]="{standalone:true}">
+<div *ngFor="let article of this.articles | filter : filter" >
+<app-article [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>

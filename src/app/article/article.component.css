@@ -1,0 +1,27 @@
+button{
+    text-align: right;
+}
+
+.article{
+    background-color:maroon;
+    color:white;
+    
+    width: 75%;
+}
+
+.article #cont{
+    font-size : 20pt;
+}
+
+.article h3{
+    font-size : 40pt;
+}
+
+.article #auth{
+    text-align : right;
+}
+
+.article a{
+    text-decoration: none;
+    color: white;
+}
