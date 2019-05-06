@@ -10,6 +10,10 @@ import { ArticleService } from './article.service';
 import { ArticleCreationComponent } from './article-creation/article-creation.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FilterPipe } from './filter.pipe';
+import { CharacterHeaderComponent } from './character-header/character-header.component';
+import { CharacterAttributesComponent } from './character-attributes/character-attributes.component';
+import { CharactersComponent } from './characters/characters.component';
+import { ComparisonComponent } from './comparison/comparison.component';
 
 const appRoutes: Routes = [
   { path: 'create', component: ArticleCreationComponent },
@@ -24,7 +28,11 @@ const appRoutes: Routes = [
     ArticleComponent,
     ArticlesComponent,
     ArticleCreationComponent,
-    FilterPipe
+    FilterPipe,
+    CharacterHeaderComponent,
+    CharacterAttributesComponent,
+    CharactersComponent,
+    ComparisonComponent
   ],
   imports: [
     RouterModule.forRoot(
