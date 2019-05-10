@@ -1,16 +1,36 @@
 {
   "articles": [
     {
-      "id": 2,
-      "title": "Angular component",
-      "content": "Angular component looks awesome!",
-      "authors": "Orangefire"
+      "id": 1,
+      "name": "Amphinobi",
+      "height": 150,
+      "weight": 88,
+      "runSpeed": 2.288,
+      "walkSpeed": 1.502,
+      "airSpeed": 1.239,
+      "fallSpeed": 1.85,
+      "initialDash": 2.178,
+      "airAcceleration": 0.08,
+      "licence": "Pokémon",
+      "imageCar" :"src/images/carre/amphinobi.png" ,
+      "imageLong" : "src/images/long/amphinobi.png",
+      "imageLicence" : "src/images/licence/pokemon.png"
     },
     {
-      "title": "Fake Title",
-      "content": "Article ",
-      "authors": "Greg",
-      "id": 3
+      "id": 2,
+      "name": "Bayonetta",
+      "height": 182,
+      "weight": 81,
+      "runSpeed": 1.76,
+      "walkSpeed": 0.945,
+      "airSpeed": 1.019,
+      "fallSpeed": 1.77,
+      "initialDash": 1.936,
+      "airAcceleration": 0.095,
+      "licence": "Bayonetta",
+      "imageCar" :"bayonetta.png" ,
+      "imageLong" : "bayonetta.png",
+      "imageLicence" : "bayonetta.png"
     },
     {
       "title": "Article title",
@@ -19,4 +39,4 @@
       "id": 4
     }
   ]
-}
+} 
