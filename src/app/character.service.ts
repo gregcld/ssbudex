@@ -10,8 +10,12 @@ export class CharacterService {
 
   constructor(private http : HttpClient) { }
 
-  public getArticles(): Observable<Character[]> {
+  public getCharacters(): Observable<Character[]> {
     return this.http.get<Character[]>("http://localhost:3000/characters");
+  }
+
+  public get(id: number): Observable<Character> {
+    return this.http.get<Character>(`http://localhost:3000/characters/${id}`);
   }
   
 }
