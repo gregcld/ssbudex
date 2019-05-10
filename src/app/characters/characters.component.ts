@@ -4,17 +4,18 @@ import { CharacterService } from '../character.service';
 
 
 @Component({
-  selector: 'app-characters',
-  templateUrl: './characters.component.html',
-  styleUrls: ['./characters.component.css']
+    selector: 'app-characters',
+    templateUrl: './characters.component.html',
+    styleUrls: ['./characters.component.css']
 })
 export class CharactersComponent implements OnInit {
 
-  private character : Character[]
+    private characters: Character[]
 
-  constructor(private characterService: CharacterService) { }
+    constructor(private characterService: CharacterService) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.characterService.getCharacters().subscribe(characters => this.characters = characters);
+    }
 
 }
