@@ -4,6 +4,7 @@
 
 <input type="text" class="searchbox" placeholder="Search" [(ngModel)]="filter" [ngModelOptions]="{standalone:true}">
 <div *ngFor="let character of this.characters | filter : filter" >
-  <img src="{{this.character.image_carre}}" alt="">
-  {{this.character.title}}
+  <img src="../../../src/images/carre/amphinobi.png" alt="amphinobi">
+  {{this.character.name}}
 </div>
+<img src="../../../src/images/carre/amphinobi.png" height="50px" width="50px" alt="amphinobi">

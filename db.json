@@ -12,9 +12,9 @@
       "initialDash": 2.178,
       "airAcceleration": 0.08,
       "licence": "Pokémon",
-      "imageCar" :"src/images/carre/amphinobi.png" ,
-      "imageLong" : "src/images/long/amphinobi.png",
-      "imageLicence" : "src/images/licence/pokemon.png"
+      "imageCar" :"amphinobi.png" ,
+      "imageLong" : "amphinobi.png",
+      "imageLicence" : "pokemon.png"
     },
     {
       "id": 2,
