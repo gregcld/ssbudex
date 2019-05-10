@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { ArticleService } from './article.service';
+import { CharacterService } from './character.service';
 import { ArticleCreationComponent } from './article-creation/article-creation.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FilterPipe } from './filter.pipe';
@@ -48,7 +49,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [ArticleService],
+  providers: [ArticleService, CharacterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
