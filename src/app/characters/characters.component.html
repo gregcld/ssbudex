@@ -1,10 +1,7 @@
-<p>
-    characters works!
-</p>
-
-<input type="text" class="searchbox" placeholder="Search" [(ngModel)]="filter" [ngModelOptions]="{standalone:true}">
-<div *ngFor="let character of this.characters | filter : filter">
-    <img src="../../assets/images/carre/amphinobi.png" alt="amphinobi">
-    {{this.character.name}}
+<div>
+    <input type="text" class="searchbox" placeholder="Search" [(ngModel)]="filter" [ngModelOptions]="{standalone:true}">
 </div>
-<img src="../../assets/images/carre/amphinobi.png" height="50px" width="50px" alt="amphinobi">
+<div class="imageCarreContainer" *ngFor="let character of this.characters | filter : filter"
+    [routerLink]="['/characters',this.character.id]">
+    <img src="../../assets/images/carre/{{this.character.imageCar}}" alt="{{this.character.name}}">
+</div>

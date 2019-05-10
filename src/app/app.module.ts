@@ -17,12 +17,14 @@ import { CharactersComponent } from './characters/characters.component';
 import { ComparisonComponent } from './comparison/comparison.component';
 import { CharacterComponent } from './character/character.component';
 
+
 const appRoutes: Routes = [
     { path: 'create', component: ArticleCreationComponent },
     { path: 'articles', component: ArticlesComponent },
     { path: 'articles/:id', component: ArticleComponent },
     { path: 'characters', component: CharactersComponent },
     { path: 'characters/:id', component: CharacterComponent },
+    { path: 'comparison', component: ComparisonComponent },
     { path: '', component: CharactersComponent }
 ]
 
