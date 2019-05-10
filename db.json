@@ -1,5 +1,5 @@
 {
-    "articles": [
+    "characters": [
         {
             "id": 1,
             "name": "Amphinobi",
@@ -639,6 +639,6 @@
             "imageCar": "",
             "imageLong": "",
             "imageLicence": ""
-        },
+        }
     ]
 }

@@ -1,15 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Character } from '../models/character';
+import { CharacterService } from '../character.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-character-header',
-  templateUrl: './character-header.component.html',
-  styleUrls: ['./character-header.component.css']
+    selector: 'app-character-header',
+    templateUrl: './character-header.component.html',
+    styleUrls: ['./character-header.component.css']
 })
 export class CharacterHeaderComponent implements OnInit {
 
-  constructor() { }
+    @Input()
+    character: Character;
+    constructor(private activatedRoute: ActivatedRoute, private characterService: CharacterService) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.activatedRoute.params.subscribe(params => {
+            if (params && params['id']) {
+                this.characterService.get(params['id']).subscribe(character => this.character = character);
+            }
+        });
+    }
 
 }
