@@ -10,4 +10,7 @@ export interface Character {
     initialDash: number;
     airAcceleration: number;
     licence: string;
+    imageCar: string,
+    imageLong: string,
+    imageLicence: string
 }

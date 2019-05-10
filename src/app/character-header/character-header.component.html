@@ -1,5 +1,11 @@
 <div class="header">
-  <h3>{{this.character.name}}</h3>
-  <p><i> {{this.character.authors}} </i></p>
-  <p>Taille :{{this.character.height}} </p>
+    <div class="cover">
+        <img id="charPict" src="../../assets/images/long/{{this.character.imageLong}}">
+    </div>
+    <div class="info">
+        <h3>{{this.character.name}}</h3>
+        <img id="licencePict" src="../../assets/images/licence/{{this.character.imageLicence}}">
+        <p>Taille: {{this.character.height}} </p>
+    </div>
+
 </div>
