@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import {HttpClientModule} from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 import { ArticlesComponent } from './articles/articles.component';
@@ -18,38 +18,38 @@ import { ComparisonComponent } from './comparison/comparison.component';
 import { CharacterComponent } from './character/character.component';
 
 const appRoutes: Routes = [
-  { path: 'create', component: ArticleCreationComponent },
-  { path: 'articles', component: ArticlesComponent },
-  { path: 'articles/:id', component: ArticleComponent },
-  { path: 'characters', component: CharactersComponent },
-  { path: 'characters/:id', component: CharacterComponent},
-  { path: '', component: CharactersComponent }
+    { path: 'create', component: ArticleCreationComponent },
+    { path: 'articles', component: ArticlesComponent },
+    { path: 'articles/:id', component: ArticleComponent },
+    { path: 'characters', component: CharactersComponent },
+    { path: 'characters/:id', component: CharacterComponent },
+    { path: '', component: CharactersComponent }
 ]
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ArticleComponent,
-    ArticlesComponent,
-    ArticleCreationComponent,
-    FilterPipe,
-    CharacterHeaderComponent,
-    CharacterAttributesComponent,
-    CharactersComponent,
-    ComparisonComponent,
-    CharacterComponent
-  ],
-  imports: [
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    ),
-    BrowserModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    FormsModule
-  ],
-  providers: [ArticleService, CharacterService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ArticleComponent,
+        ArticlesComponent,
+        ArticleCreationComponent,
+        FilterPipe,
+        CharacterHeaderComponent,
+        CharacterAttributesComponent,
+        CharactersComponent,
+        ComparisonComponent,
+        CharacterComponent
+    ],
+    imports: [
+        RouterModule.forRoot(
+            appRoutes,
+            { enableTracing: true } // <-- debugging purposes only
+        ),
+        BrowserModule,
+        HttpClientModule,
+        ReactiveFormsModule,
+        FormsModule
+    ],
+    providers: [ArticleService, CharacterService],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

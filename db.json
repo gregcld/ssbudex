@@ -1,42 +1,36 @@
 {
-  "articles": [
-    {
-      "id": 1,
-      "name": "Amphinobi",
-      "height": 150,
-      "weight": 88,
-      "runSpeed": 2.288,
-      "walkSpeed": 1.502,
-      "airSpeed": 1.239,
-      "fallSpeed": 1.85,
-      "initialDash": 2.178,
-      "airAcceleration": 0.08,
-      "licence": "Pokémon",
-      "imageCar" :"src/images/carre/amphinobi.png" ,
-      "imageLong" : "src/images/long/amphinobi.png",
-      "imageLicence" : "src/images/licence/pokemon.png"
-    },
-    {
-      "id": 2,
-      "name": "Bayonetta",
-      "height": 182,
-      "weight": 81,
-      "runSpeed": 1.76,
-      "walkSpeed": 0.945,
-      "airSpeed": 1.019,
-      "fallSpeed": 1.77,
-      "initialDash": 1.936,
-      "airAcceleration": 0.095,
-      "licence": "Bayonetta",
-      "imageCar" :"bayonetta.png" ,
-      "imageLong" : "bayonetta.png",
-      "imageLicence" : "bayonetta.png"
-    },
-    {
-      "title": "Article title",
-      "content": "I write something",
-      "authors": "Greg",
-      "id": 4
-    }
-  ]
+    "characters": [
+        {
+            "id": 1,
+            "name": "Amphinobi",
+            "height": 150,
+            "weight": 88,
+            "runSpeed": 2.288,
+            "walkSpeed": 1.502,
+            "airSpeed": 1.239,
+            "fallSpeed": 1.85,
+            "initialDash": 2.178,
+            "airAcceleration": 0.08,
+            "licence": "Pokémon",
+            "imageCar" :"amphinobi.png" ,
+            "imageLong" : "amphinobi.png",
+            "imageLicence" : "pokemon.png"
+        },
+        {
+            "id": 2,
+            "name": "Bayonetta",
+            "height": 182,
+            "weight": 81,
+            "runSpeed": 1.76,
+            "walkSpeed": 0.945,
+            "airSpeed": 1.019,
+            "fallSpeed": 1.77,
+            "initialDash": 1.936,
+            "airAcceleration": 0.095,
+            "licence": "Bayonetta",
+            "imageCar" :"bayonetta.png" ,
+            "imageLong" : "bayonetta.png",
+            "imageLicence" : "bayonetta.png"
+        }
+    ]
 } 
