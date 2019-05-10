@@ -14,13 +14,14 @@ import { CharacterHeaderComponent } from './character-header/character-header.co
 import { CharacterAttributesComponent } from './character-attributes/character-attributes.component';
 import { CharactersComponent } from './characters/characters.component';
 import { ComparisonComponent } from './comparison/comparison.component';
+import { CharacterComponent } from './character/character.component';
 
 const appRoutes: Routes = [
   { path: 'create', component: ArticleCreationComponent },
   { path: 'articles', component: ArticlesComponent },
   { path: 'articles/:id', component: ArticleComponent },
   { path: 'characters', component: CharactersComponent },
-  { path: 'characters/:id', component: CharacterHeaderComponent},
+  { path: 'characters/:id', component: CharacterComponent},
   { path: '', component: CharactersComponent }
 ]
 
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     CharacterHeaderComponent,
     CharacterAttributesComponent,
     CharactersComponent,
-    ComparisonComponent
+    ComparisonComponent,
+    CharacterComponent
   ],
   imports: [
     RouterModule.forRoot(
