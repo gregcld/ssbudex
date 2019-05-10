@@ -19,7 +19,9 @@ const appRoutes: Routes = [
   { path: 'create', component: ArticleCreationComponent },
   { path: 'articles', component: ArticlesComponent },
   { path: 'articles/:id', component: ArticleComponent },
-  { path: '', component: ArticlesComponent }
+  { path: 'characters', component: CharactersComponent },
+  { path: 'characters/:id', component: CharacterHeaderComponent},
+  { path: '', component: CharactersComponent }
 ]
 
 @NgModule({
