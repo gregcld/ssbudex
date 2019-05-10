@@ -45,7 +45,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "bowser.jpg",
             "imageLicence": ""
         },
         {
@@ -61,7 +61,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "bowser-jr.jpg",
             "imageLicence": ""
         },
         {
@@ -77,7 +77,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "captain-falcon.jpg",
             "imageLicence": ""
         },
         {
@@ -93,7 +93,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "chrom.jpg",
             "imageLicence": ""
         },
         {
@@ -109,7 +109,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "cloud.jpg",
             "imageLicence": ""
         },
         {
@@ -125,7 +125,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "corrin.jpg",
             "imageLicence": ""
         },
         {
@@ -141,7 +141,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "diddy-kong.jpg",
             "imageLicence": ""
         },
         {
@@ -157,7 +157,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "donkey-kong.jpg",
             "imageLicence": ""
         },
         {
@@ -173,7 +173,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "dr-mario.jpg",
             "imageLicence": ""
         },
         {
@@ -189,7 +189,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "duck-hunt.jpg",
             "imageLicence": ""
         },
         {
@@ -205,7 +205,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "falco.jpg",
             "imageLicence": ""
         },
         {
@@ -221,7 +221,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "fox.jpg",
             "imageLicence": ""
         },
         {
@@ -237,7 +237,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "ganondorf.jpg",
             "imageLicence": ""
         },
         {
@@ -253,7 +253,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "ice-climbers.jpg",
             "imageLicence": ""
         },
         {
@@ -269,7 +269,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "ike.jpg",
             "imageLicence": ""
         },
         {
@@ -285,7 +285,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "felinferno.jpg",
             "imageLicence": ""
         },
         {
@@ -301,7 +301,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "inkling.jpg",
             "imageLicence": ""
         },
         {
@@ -317,7 +317,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "marie.jpg",
             "imageLicence": ""
         },
         {
@@ -333,7 +333,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "joker.jpg",
             "imageLicence": ""
         },
         {
@@ -349,23 +349,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
-            "imageLicence": ""
-        },
-        {
-            "id": 22,
-            "name": "Roi Dadidou",
-            "height": 0,
-            "weight": 0,
-            "runSpeed": 0,
-            "walkSpeed": 0,
-            "airSpeed": 0,
-            "fallSpeed": 0,
-            "initialDash": 0,
-            "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
-            "imageLong": "",
+            "imageLong": "ken.jpg",
             "imageLicence": ""
         },
         {
@@ -381,7 +365,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "king-k-rool.jpg",
             "imageLicence": ""
         },
         {
@@ -397,7 +381,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "kirby.jpg",
             "imageLicence": ""
         },
         {
@@ -413,7 +397,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "link.jpg",
             "imageLicence": ""
         },
         {
@@ -429,7 +413,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "little-mac.jpg",
             "imageLicence": ""
         },
         {
@@ -445,7 +429,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "lucario.jpg",
             "imageLicence": ""
         },
         {
@@ -461,7 +445,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "lucas.jpg",
             "imageLicence": ""
         },
         {
@@ -477,7 +461,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "luigi.jpg",
             "imageLicence": ""
         },
         {
@@ -493,7 +477,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mario.jpg",
             "imageLicence": ""
         },
         {
@@ -509,7 +493,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "marth.jpg",
             "imageLicence": ""
         },
         {
@@ -525,7 +509,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mega-man.jpg",
             "imageLicence": ""
         },
         {
@@ -541,7 +525,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "meta-knight.jpg",
             "imageLicence": ""
         },
         {
@@ -557,7 +541,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mewtwo.jpg",
             "imageLicence": ""
         },
         {
@@ -573,7 +557,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mii-brawler.jpg",
             "imageLicence": ""
         },
         {
@@ -589,7 +573,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mii-gunner.jpg",
             "imageLicence": ""
         },
         {
@@ -605,7 +589,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mii-swordfighter.jpg",
             "imageLicence": ""
         },
         {
@@ -621,7 +605,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "mr-game-watch.jpg",
             "imageLicence": ""
         },
         {
@@ -637,7 +621,519 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "",
+            "imageLong": "ness.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 40,
+            "name": "Olimar",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "olimar.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 41,
+            "name": "Pac man",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "pac-man.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 42,
+            "name": "Palutena",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "palutena.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 43,
+            "name": "Peach",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "peach.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 44,
+            "name": "Pichu",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "pichu.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 45,
+            "name": "Pikachu",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "pikachu.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 46,
+            "name": "Plante piranha",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "piranha-plant.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 47,
+            "name": "Pit",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "pit.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 48,
+            "name": "Pokemon trainer",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "pokemon-trainer.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 49,
+            "name": "Ridley",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "ridley.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 50,
+            "name": "R.O.B",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "rob.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 51,
+            "name": "Robin",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "robin.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 52,
+            "name": "Roi Dadidou",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "roi-dadidou.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 53,
+            "name": "Rondoudou",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "rondoudou.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 54,
+            "name": "Harmonie",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "rosalina.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 55,
+            "name": "Roy",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "roy.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 56,
+            "name": "Ryu",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "ryu.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 57,
+            "name": "Samus",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "samus.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 58,
+            "name": "Sheik",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "sheik.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 59,
+            "name": "Shulk",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "shulk.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 60,
+            "name": "Simon",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "simon.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 61,
+            "name": "Snake",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "snake.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 62,
+            "name": "Sonic",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "sonic.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 63,
+            "name": "Toon Link",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "toon-like.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 64,
+            "name": "Villageois",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "villager.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 65,
+            "name": "Wario",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "wario.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 66,
+            "name": "Entraineur Wii fit",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "wii-fit-trainer.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 67,
+            "name": "Wolf",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "wolf.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 68,
+            "name": "Yoshi",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "yoshi.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 69,
+            "name": "Young Link",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "young-link.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 70,
+            "name": "Zelda",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "zelda.jpg",
+            "imageLicence": ""
+        },
+        {
+            "id": 71,
+            "name": "Samus sans armure",
+            "height": 0,
+            "weight": 0,
+            "runSpeed": 0,
+            "walkSpeed": 0,
+            "airSpeed": 0,
+            "fallSpeed": 0,
+            "initialDash": 0,
+            "airAcceleration": 0,
+            "licence": "",
+            "imageCar": "",
+            "imageLong": "zero-suit-samus.jpg",
             "imageLicence": ""
         }
     ]
