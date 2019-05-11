@@ -257,7 +257,7 @@
             "imageLicence": ""
         },
         {
-            "id": 16,
+            "id": 17,
             "name": "Ike",
             "height": 0,
             "weight": 0,
@@ -273,7 +273,7 @@
             "imageLicence": ""
         },
         {
-            "id": 17,
+            "id": 18,
             "name": "Felinferno",
             "height": 0,
             "weight": 0,
@@ -289,7 +289,7 @@
             "imageLicence": ""
         },
         {
-            "id": 18,
+            "id": 19,
             "name": "Inkling",
             "height": 0,
             "weight": 0,
@@ -305,7 +305,7 @@
             "imageLicence": ""
         },
         {
-            "id": 19,
+            "id": 20,
             "name": "Marie",
             "height": 0,
             "weight": 0,
@@ -321,7 +321,7 @@
             "imageLicence": ""
         },
         {
-            "id": 20,
+            "id": 21,
             "name": "Joker",
             "height": 0,
             "weight": 0,
@@ -337,7 +337,7 @@
             "imageLicence": ""
         },
         {
-            "id": 21,
+            "id": 22,
             "name": "Ken",
             "height": 0,
             "weight": 0,
@@ -1005,7 +1005,7 @@
             "airAcceleration": 0,
             "licence": "",
             "imageCar": "",
-            "imageLong": "toon-like.jpg",
+            "imageLong": "toon-link.jpg",
             "imageLicence": ""
         },
         {
