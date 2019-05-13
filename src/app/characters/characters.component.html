@@ -1,7 +1,15 @@
-<div>
-    <input type="text" class="searchbox" placeholder="Search" [(ngModel)]="filter" [ngModelOptions]="{standalone:true}">
-</div>
-<div class="imageCarreContainer" *ngFor="let character of this.characters | filter : filter"
-    [routerLink]="['/characters',this.character.id]">
-    <img src="../../assets/images/carre/{{this.character.imageCar}}" width="70px" alt="{{this.character.name}}">
+<div class="ui-fluid">
+
+    <div>
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="pi pi-fw pi-user"></i></span>
+            <input type="text" pInputText class="searchbox" placeholder="Search a character" [(ngModel)]="filter"
+                [ngModelOptions]="{standalone:true}">
+        </div>
+
+    </div>
+    <div class="imageCarreContainer" *ngFor="let character of this.characters | filter : filter"
+        [routerLink]="['/characters',this.character.id]">
+        <img src="../../assets/images/carre/{{this.character.imageCar}}" width="70px" alt="{{this.character.name}}">
+    </div>
 </div>

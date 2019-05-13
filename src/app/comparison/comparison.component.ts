@@ -33,20 +33,19 @@ export class ComparisonComponent implements OnInit {
     initialDashMax: number;
     airAcceleration: number;
 
-
+    name1: string;
+    name2: string;
     parameter1: any;
     parameter2: any;
 
     characters: Character[]
 
-    //characters: any;
-
-    height: number;
-
     constructor(private characterService: CharacterService) {
+        this.name1 = "Character 1";
+        this.name2 = "Character 2";
         this.parameter1 = [0, 0, 0, 0, 0, 0, 0, 0];
         this.parameter2 = [0, 0, 0, 0, 0, 0, 0, 0];
-        this.drawRadarChart(this.parameter1, this.parameter2);
+        this.drawRadarChart(this.name1, this.name2, this.parameter1, this.parameter2);
 
         this.heighMax = 230;
         this.weigthMax = 135;
@@ -63,21 +62,23 @@ export class ComparisonComponent implements OnInit {
     }
 
     onChange1(aCharacter) {
+        this.name1 = aCharacter.value.name;
         this.parameter1 = [this.transformationData(this.heighMax, aCharacter.value.height), this.transformationData(this.weigthMax, aCharacter.value.weight), this.transformationData(this.runSpeedMax, aCharacter.value.runSpeed), this.transformationData(this.walkSpeedMax, aCharacter.value.walkSpeed), this.transformationData(this.airSpeedMax, aCharacter.value.airSpeed), this.transformationData(this.fallSpeedMax, aCharacter.value.fallSpeed), this.transformationData(this.initialDashMax, aCharacter.value.initialDash), this.transformationData(this.airAcceleration, aCharacter.value.airAcceleration)];
-        this.drawRadarChart(this.parameter1, this.parameter2);
+        this.drawRadarChart(this.name1, this.name2, this.parameter1, this.parameter2);
     }
 
     onChange2(aCharacter) {
+        this.name2 = aCharacter.value.name;
         this.parameter2 = [this.transformationData(this.heighMax, aCharacter.value.height), this.transformationData(this.weigthMax, aCharacter.value.weight), this.transformationData(this.runSpeedMax, aCharacter.value.runSpeed), this.transformationData(this.walkSpeedMax, aCharacter.value.walkSpeed), this.transformationData(this.airSpeedMax, aCharacter.value.airSpeed), this.transformationData(this.fallSpeedMax, aCharacter.value.fallSpeed), this.transformationData(this.initialDashMax, aCharacter.value.initialDash), this.transformationData(this.airAcceleration, aCharacter.value.airAcceleration)];
-        this.drawRadarChart(this.parameter1, this.parameter2);
+        this.drawRadarChart(this.name1, this.name2, this.parameter1, this.parameter2);
     }
 
-    drawRadarChart(parameter1, parameter2) {
+    drawRadarChart(name1, name2, parameter1, parameter2) {
         this.data = {
             labels: ['height', 'weight', 'runSpeed', 'walkSpeed', 'airSpeed', 'fallSpeed', 'initialDash', 'airAcceleration'],
             datasets: [
                 {
-                    label: 'My First dataset',
+                    label: name1,
                     backgroundColor: 'rgba(179,181,198,0.2)',
                     borderColor: 'rgba(179,181,198,1)',
                     pointBackgroundColor: 'rgba(179,181,198,1)',
@@ -87,7 +88,7 @@ export class ComparisonComponent implements OnInit {
                     data: parameter1
                 },
                 {
-                    label: 'My Second dataset',
+                    label: name2,
                     backgroundColor: 'rgba(255,99,132,0.2)',
                     borderColor: 'rgba(255,99,132,1)',
                     pointBackgroundColor: 'rgba(255,99,132,1)',

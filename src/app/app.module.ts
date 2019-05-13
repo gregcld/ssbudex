@@ -19,7 +19,9 @@ import { CharacterComponent } from './character/character.component';
 import { DropdownModule } from 'primeng/primeng';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChartModule } from 'primeng/chart';
-
+import { MenuComponent } from './menu/menu.component';
+import { MenuModule } from 'primeng/menu';
+import { ContextMenuModule } from 'primeng/contextmenu';
 
 
 const appRoutes: Routes = [
@@ -43,7 +45,8 @@ const appRoutes: Routes = [
         CharacterAttributesComponent,
         CharactersComponent,
         ComparisonComponent,
-        CharacterComponent
+        CharacterComponent,
+        MenuComponent
     ],
     imports: [
         RouterModule.forRoot(
@@ -57,6 +60,8 @@ const appRoutes: Routes = [
         DropdownModule,
         BrowserAnimationsModule,
         ChartModule,
+        MenuModule,
+        ContextMenuModule
     ],
     providers: [ArticleService, CharacterService],
     bootstrap: [AppComponent]
