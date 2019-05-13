@@ -364,7 +364,7 @@
             "initialDash": 0,
             "airAcceleration": 0,
             "licence": "Donkey Kong",
-            "imageCar": "kingkrool",
+            "imageCar": "kingkrool.png",
             "imageLong": "king-k-rool.jpg",
             "imageLicence": "donkeykong.png"
         },
@@ -924,7 +924,7 @@
             "initialDash": 0,
             "airAcceleration": 0,
             "licence": "The legend of Zelda",
-            "imageCar": "sheik.png",
+            "imageCar": "shiek.png",
             "imageLong": "sheik.jpg",
             "imageLicence": "zelda.png"
         },
@@ -1004,7 +1004,7 @@
             "initialDash": 0,
             "airAcceleration": 0,
             "licence": "The legend of Zelda",
-            "imageCar": "toon-link.png.png",
+            "imageCar": "toon-link.png",
             "imageLong": "toon-link.jpg",
             "imageLicence": "zelda.png"
         },

@@ -16,6 +16,10 @@ import { CharacterAttributesComponent } from './character-attributes/character-a
 import { CharactersComponent } from './characters/characters.component';
 import { ComparisonComponent } from './comparison/comparison.component';
 import { CharacterComponent } from './character/character.component';
+import { DropdownModule } from 'primeng/primeng';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChartModule } from 'primeng/chart';
+
 
 
 const appRoutes: Routes = [
@@ -49,7 +53,10 @@ const appRoutes: Routes = [
         BrowserModule,
         HttpClientModule,
         ReactiveFormsModule,
-        FormsModule
+        FormsModule,
+        DropdownModule,
+        BrowserAnimationsModule,
+        ChartModule,
     ],
     providers: [ArticleService, CharacterService],
     bootstrap: [AppComponent]
