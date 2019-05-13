@@ -3,5 +3,5 @@
 </div>
 <div class="imageCarreContainer" *ngFor="let character of this.characters | filter : filter"
     [routerLink]="['/characters',this.character.id]">
-    <img src="../../assets/images/carre/{{this.character.imageCar}}" alt="{{this.character.name}}">
+    <img src="../../assets/images/carre/{{this.character.imageCar}}" width="70px" alt="{{this.character.name}}">
 </div>
