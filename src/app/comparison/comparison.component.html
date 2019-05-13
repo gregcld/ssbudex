@@ -1,17 +1,15 @@
-<p>
-    comparison works!
-</p>
-
-<div class="dropdown">
-    <span>Mouse over me</span>
-    <div class="dropdown-content">
-        <p>Hello World!</p>
-    </div>
+<br>
+<div class="ui-g-2">
+    <p-dropdown [options]="cities1" [(ngModel)]="selectedCity1"></p-dropdown>
+</div>
+<div class="ui-g-8">
+    <p-chart type="radar" [data]="data"></p-chart>
+</div>
+<div class="ui-g-2">
+    <p-dropdown [options]="cities2" [(ngModel)]="selectedCity2"></p-dropdown>
 </div>
 
-<div class="dropdown">
-    <span>Mouse over me</span>
-    <div class="dropdown-content">
-        <p>Hello World!</p>
-    </div>
+
+<div class="ui-g-2">
+    <p-dropdown [options]="characters" [(ngModel)]="selectedCharacter1"></p-dropdown>
 </div>
