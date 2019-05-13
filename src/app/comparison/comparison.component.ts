@@ -4,7 +4,7 @@ import { SelectItem } from 'primeng/api';
 import { ChartModule } from 'primeng/chart';
 import { CharacterService } from '../character.service';
 import { Character } from '../models/character';
-import { forEach } from '@angular/router/src/utils/collection';
+import { PanelModule } from 'primeng/panel';
 
 interface City {
     name: string;

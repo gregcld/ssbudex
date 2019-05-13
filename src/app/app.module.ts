@@ -22,7 +22,10 @@ import { ChartModule } from 'primeng/chart';
 import { MenuComponent } from './menu/menu.component';
 import { MenuModule } from 'primeng/menu';
 import { ContextMenuModule } from 'primeng/contextmenu';
-
+import { TooltipModule } from 'primeng/tooltip';
+import { CardModule } from 'primeng/card';
+import { FilterLicencePipe } from './filter-licence.pipe';
+import { PanelModule } from 'primeng/panel';
 
 const appRoutes: Routes = [
     { path: 'create', component: ArticleCreationComponent },
@@ -40,13 +43,15 @@ const appRoutes: Routes = [
         ArticleComponent,
         ArticlesComponent,
         ArticleCreationComponent,
+        FilterLicencePipe,
         FilterPipe,
         CharacterHeaderComponent,
         CharacterAttributesComponent,
         CharactersComponent,
         ComparisonComponent,
         CharacterComponent,
-        MenuComponent
+        MenuComponent,
+
     ],
     imports: [
         RouterModule.forRoot(
@@ -61,7 +66,10 @@ const appRoutes: Routes = [
         BrowserAnimationsModule,
         ChartModule,
         MenuModule,
-        ContextMenuModule
+        ContextMenuModule,
+        TooltipModule,
+        CardModule,
+        PanelModule
     ],
     providers: [ArticleService, CharacterService],
     bootstrap: [AppComponent]
