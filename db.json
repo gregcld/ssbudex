@@ -43,10 +43,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "bowser.png",
             "imageLong": "bowser.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 4,
@@ -59,10 +59,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "bowser-jr.png",
             "imageLong": "bowser-jr.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 5,
@@ -75,10 +75,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "F Zero",
+            "imageCar": "cap-falcon.png",
             "imageLong": "captain-falcon.jpg",
-            "imageLicence": ""
+            "imageLicence": "f-zero.png"
         },
         {
             "id": 6,
@@ -91,10 +91,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final Fantasy",
+            "imageCar": "chrom.png",
             "imageLong": "chrom.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 7,
@@ -107,10 +107,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final Fantasy",
+            "imageCar": "cloud.png",
             "imageLong": "cloud.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 8,
@@ -123,10 +123,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final Fantasy",
+            "imageCar": "corrin.png",
             "imageLong": "corrin.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 9,
@@ -139,10 +139,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Donkey Kong",
+            "imageCar": "diddy-kong.png",
             "imageLong": "diddy-kong.jpg",
-            "imageLicence": ""
+            "imageLicence": "donkeykong.png"
         },
         {
             "id": 10,
@@ -155,10 +155,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Donkey Kong",
+            "imageCar": "donkey-kong.png",
             "imageLong": "donkey-kong.jpg",
-            "imageLicence": ""
+            "imageLicence": "donkeykong.png"
         },
         {
             "id": 11,
@@ -171,10 +171,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "dr-mario.png",
             "imageLong": "dr-mario.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 12,
@@ -187,10 +187,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Duck Hunt",
+            "imageCar": "duck-hunt.png",
             "imageLong": "duck-hunt.jpg",
-            "imageLicence": ""
+            "imageLicence": "duckhunt.png"
         },
         {
             "id": 13,
@@ -203,10 +203,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Star Fox",
+            "imageCar": "falco.png",
             "imageLong": "falco.jpg",
-            "imageLicence": ""
+            "imageLicence": "starfox.png"
         },
         {
             "id": 14,
@@ -219,10 +219,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Star Fox",
+            "imageCar": "fox.png",
             "imageLong": "fox.jpg",
-            "imageLicence": ""
+            "imageLicence": "starfox.png"
         },
         {
             "id": 15,
@@ -235,10 +235,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "ganondorf.png",
             "imageLong": "ganondorf.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 16,
@@ -251,10 +251,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Ice climber",
+            "imageCar": "ice-climber.png",
             "imageLong": "ice-climbers.jpg",
-            "imageLicence": ""
+            "imageLicence": "iceclimber.png"
         },
         {
             "id": 17,
@@ -267,10 +267,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final Fantasy",
+            "imageCar": "ike.png",
             "imageLong": "ike.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 18,
@@ -283,10 +283,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "incineroar.png",
             "imageLong": "felinferno.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 19,
@@ -299,10 +299,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Splatoon",
+            "imageCar": "inkling.png",
             "imageLong": "inkling.jpg",
-            "imageLicence": ""
+            "imageLicence": "splatoon.png"
         },
         {
             "id": 20,
@@ -315,10 +315,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Animal crossing",
+            "imageCar": "marie.png",
             "imageLong": "marie.jpg",
-            "imageLicence": ""
+            "imageLicence": "animalcrossing.png"
         },
         {
             "id": 21,
@@ -331,10 +331,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Persona 5",
+            "imageCar": "joker.png",
             "imageLong": "joker.jpg",
-            "imageLicence": ""
+            "imageLicence": "persona5.png"
         },
         {
             "id": 22,
@@ -347,10 +347,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Street fighter",
+            "imageCar": "ken.png",
             "imageLong": "ken.jpg",
-            "imageLicence": ""
+            "imageLicence": "streetfighter.png"
         },
         {
             "id": 23,
@@ -363,10 +363,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Donkey Kong",
+            "imageCar": "kingkrool",
             "imageLong": "king-k-rool.jpg",
-            "imageLicence": ""
+            "imageLicence": "donkeykong.png"
         },
         {
             "id": 24,
@@ -379,10 +379,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Kirby",
+            "imageCar": "kirby.png",
             "imageLong": "kirby.jpg",
-            "imageLicence": ""
+            "imageLicence": "kirby.png"
         },
         {
             "id": 25,
@@ -395,10 +395,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "link.png",
             "imageLong": "link.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 26,
@@ -411,10 +411,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Punch Out",
+            "imageCar": "littlemac.png",
             "imageLong": "little-mac.jpg",
-            "imageLicence": ""
+            "imageLicence": "punch_out.png"
         },
         {
             "id": 27,
@@ -427,10 +427,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "lucario.png",
             "imageLong": "lucario.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 28,
@@ -443,10 +443,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Earth Bound",
+            "imageCar": "lucas.png",
             "imageLong": "lucas.jpg",
-            "imageLicence": ""
+            "imageLicence": "EarthBound.png"
         },
         {
             "id": 29,
@@ -459,10 +459,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "luigi.png",
             "imageLong": "luigi.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 30,
@@ -475,10 +475,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "mario.png",
             "imageLong": "mario.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 31,
@@ -491,10 +491,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final fantasy",
+            "imageCar": "marth.png",
             "imageLong": "marth.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 32,
@@ -507,10 +507,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Mega man",
+            "imageCar": "megaman.png",
             "imageLong": "mega-man.jpg",
-            "imageLicence": ""
+            "imageLicence": "megaman.png"
         },
         {
             "id": 33,
@@ -523,10 +523,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Kirby",
+            "imageCar": "metaknight.png",
             "imageLong": "meta-knight.jpg",
-            "imageLicence": ""
+            "imageLicence": "kirby.png"
         },
         {
             "id": 34,
@@ -539,10 +539,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "mewtwo.png",
             "imageLong": "mewtwo.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 35,
@@ -555,10 +555,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Mii",
+            "imageCar": "mii.png",
             "imageLong": "mii-brawler.jpg",
-            "imageLicence": ""
+            "imageLicence": "mii.png"
         },
         {
             "id": 36,
@@ -571,10 +571,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Mii",
+            "imageCar": "mii.png",
             "imageLong": "mii-gunner.jpg",
-            "imageLicence": ""
+            "imageLicence": "mii.png"
         },
         {
             "id": 37,
@@ -587,10 +587,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Mii",
+            "imageCar": "mii.png",
             "imageLong": "mii-swordfighter.jpg",
-            "imageLicence": ""
+            "imageLicence": "mii.png"
         },
         {
             "id": 38,
@@ -603,10 +603,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Game & Watch",
+            "imageCar": "mrgameandwatch.png",
             "imageLong": "mr-game-watch.jpg",
-            "imageLicence": ""
+            "imageLicence": "gamewatch.png"
         },
         {
             "id": 39,
@@ -619,10 +619,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Earth Bound",
+            "imageCar": "ness.png",
             "imageLong": "ness.jpg",
-            "imageLicence": ""
+            "imageLicence": "EarthBound.png"
         },
         {
             "id": 40,
@@ -635,10 +635,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pikmin",
+            "imageCar": "olimar.png",
             "imageLong": "olimar.jpg",
-            "imageLicence": ""
+            "imageLicence": "pikmin.png"
         },
         {
             "id": 41,
@@ -651,10 +651,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pac man",
+            "imageCar": "pacman.png",
             "imageLong": "pac-man.jpg",
-            "imageLicence": ""
+            "imageLicence": "pacman.png"
         },
         {
             "id": 42,
@@ -667,10 +667,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Kid Icarius",
+            "imageCar": "palutena.png",
             "imageLong": "palutena.jpg",
-            "imageLicence": ""
+            "imageLicence": "kidicarius.png"
         },
         {
             "id": 43,
@@ -683,10 +683,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "peach.png",
             "imageLong": "peach.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 44,
@@ -699,10 +699,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "pichu.png",
             "imageLong": "pichu.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 45,
@@ -715,10 +715,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "pikachu.png",
             "imageLong": "pikachu.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 46,
@@ -731,10 +731,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "packun_flower.png",
             "imageLong": "piranha-plant.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 47,
@@ -747,10 +747,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Kid Icarius",
+            "imageCar": "pit.png",
             "imageLong": "pit.jpg",
-            "imageLicence": ""
+            "imageLicence": "kidicarius.png"
         },
         {
             "id": 48,
@@ -763,10 +763,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "dresseur-pokemon.png",
             "imageLong": "pokemon-trainer.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 49,
@@ -779,10 +779,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Metroid",
+            "imageCar": "ridley.png",
             "imageLong": "ridley.jpg",
-            "imageLicence": ""
+            "imageLicence": "metroid.png"
         },
         {
             "id": 50,
@@ -795,10 +795,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "R.O.B",
+            "imageCar": "rob.png",
             "imageLong": "rob.jpg",
-            "imageLicence": ""
+            "imageLicence": "rob.png"
         },
         {
             "id": 51,
@@ -811,10 +811,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final fantasy",
+            "imageCar": "daraen.png",
             "imageLong": "robin.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 52,
@@ -827,10 +827,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Kirby",
+            "imageCar": "kingdedede.png",
             "imageLong": "roi-dadidou.jpg",
-            "imageLicence": ""
+            "imageLicence": "kirby.png"
         },
         {
             "id": 53,
@@ -843,10 +843,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Pokemon",
+            "imageCar": "rondoudou.png",
             "imageLong": "rondoudou.jpg",
-            "imageLicence": ""
+            "imageLicence": "pokemon.png"
         },
         {
             "id": 54,
@@ -859,10 +859,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Super Mario",
+            "imageCar": "harmonie.png",
             "imageLong": "rosalina.jpg",
-            "imageLicence": ""
+            "imageLicence": "mario.png"
         },
         {
             "id": 55,
@@ -875,10 +875,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Final fantasy",
+            "imageCar": "roy.png",
             "imageLong": "roy.jpg",
-            "imageLicence": ""
+            "imageLicence": "finalfantasy.png"
         },
         {
             "id": 56,
@@ -891,10 +891,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Street fighter",
+            "imageCar": "ryu.png",
             "imageLong": "ryu.jpg",
-            "imageLicence": ""
+            "imageLicence": "streetfighter.png"
         },
         {
             "id": 57,
@@ -907,10 +907,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Metroid",
+            "imageCar": "samus.png",
             "imageLong": "samus.jpg",
-            "imageLicence": ""
+            "imageLicence": "metroid.png"
         },
         {
             "id": 58,
@@ -923,10 +923,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "sheik.png",
             "imageLong": "sheik.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 59,
@@ -939,10 +939,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Xenoblade chronicles",
+            "imageCar": "shulk.png",
             "imageLong": "shulk.jpg",
-            "imageLicence": ""
+            "imageLicence": "xenoblade.png.png"
         },
         {
             "id": 60,
@@ -955,10 +955,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Castle Vania",
+            "imageCar": "simon.png",
             "imageLong": "simon.jpg",
-            "imageLicence": ""
+            "imageLicence": "CastleVania.png"
         },
         {
             "id": 61,
@@ -971,10 +971,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Metal gear solid",
+            "imageCar": "snake.png",
             "imageLong": "snake.jpg",
-            "imageLicence": ""
+            "imageLicence": "metalgear.png"
         },
         {
             "id": 62,
@@ -987,10 +987,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Sonic the hedgehog",
+            "imageCar": "sonic.png",
             "imageLong": "sonic.jpg",
-            "imageLicence": ""
+            "imageLicence": "sonic.png"
         },
         {
             "id": 63,
@@ -1003,10 +1003,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "toon-link.png.png",
             "imageLong": "toon-link.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 64,
@@ -1019,10 +1019,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Animal crossing",
+            "imageCar": "villageois.png",
             "imageLong": "villager.jpg",
-            "imageLicence": ""
+            "imageLicence": "animalcrossing.png"
         },
         {
             "id": 65,
@@ -1035,10 +1035,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Wario ware",
+            "imageCar": "wario.png",
             "imageLong": "wario.jpg",
-            "imageLicence": ""
+            "imageLicence": "wario.png"
         },
         {
             "id": 66,
@@ -1051,10 +1051,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Wii Fit",
+            "imageCar": "wiifit.png",
             "imageLong": "wii-fit-trainer.jpg",
-            "imageLicence": ""
+            "imageLicence": "wiifit.png"
         },
         {
             "id": 67,
@@ -1067,10 +1067,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Star Fox",
+            "imageCar": "wolf.png",
             "imageLong": "wolf.jpg",
-            "imageLicence": ""
+            "imageLicence": "starfox.png"
         },
         {
             "id": 68,
@@ -1083,10 +1083,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Yoshi",
+            "imageCar": "yoshi.png",
             "imageLong": "yoshi.jpg",
-            "imageLicence": ""
+            "imageLicence": "yoshi.png"
         },
         {
             "id": 69,
@@ -1099,10 +1099,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "kid-link.png",
             "imageLong": "young-link.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 70,
@@ -1115,10 +1115,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "The legend of Zelda",
+            "imageCar": "zelda.png",
             "imageLong": "zelda.jpg",
-            "imageLicence": ""
+            "imageLicence": "zelda.png"
         },
         {
             "id": 71,
@@ -1131,10 +1131,10 @@
             "fallSpeed": 0,
             "initialDash": 0,
             "airAcceleration": 0,
-            "licence": "",
-            "imageCar": "",
+            "licence": "Metroid",
+            "imageCar": "zerosuit.png",
             "imageLong": "zero-suit-samus.jpg",
-            "imageLicence": ""
+            "imageLicence": "metroid.png"
         }
     ]
 }
