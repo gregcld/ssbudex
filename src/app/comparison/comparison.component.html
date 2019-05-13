@@ -1,15 +1,13 @@
 <br>
 <div class="ui-g-2">
-    <p-dropdown [options]="cities1" [(ngModel)]="selectedCity1"></p-dropdown>
+    <p-dropdown [options]="characters" [(ngModel)]="selectedCharacter1" (onChange)="onChange1($event)"
+        placeholder="Select a character" optionLabel="name"></p-dropdown>
 </div>
+
 <div class="ui-g-8">
     <p-chart type="radar" [data]="data"></p-chart>
 </div>
 <div class="ui-g-2">
-    <p-dropdown [options]="cities2" [(ngModel)]="selectedCity2"></p-dropdown>
-</div>
-
-
-<div class="ui-g-2">
-    <p-dropdown [options]="characters" [(ngModel)]="selectedCharacter1"></p-dropdown>
+    <p-dropdown [options]="characters" [(ngModel)]="selectedCharacter2" (onChange)="onChange2($event)"
+        placeholder="Select a character" optionLabel="name"></p-dropdown>
 </div>
