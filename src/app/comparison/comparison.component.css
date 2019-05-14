@@ -15,13 +15,3 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-.ui-panel-titlebar{
-    background-color: black !important;
-}
-
-	
-.ui-panel{
-    background-color: black !important;
-    color:green;
-}

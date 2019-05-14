@@ -11,6 +11,8 @@ html{
 .ui-panel-content{
     min-height: 70px;
 }
+
+
 .ui-panel-titlebar{
     background-color: #2d353c !important;
     color : white !important;
