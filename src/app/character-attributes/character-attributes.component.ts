@@ -56,8 +56,8 @@ export class CharacterAttributesComponent implements OnInit {
             datasets: [
                 {
                     label: character.name + ' attributes',
-                    backgroundColor: 'rgba(13,173,245,1)',
-                    borderColor: 'rgba(13,173,245,0.1)',
+                    backgroundColor: 'rgba(13,173,245,0.7)',
+                    borderColor: 'rgba(13,173,245,1)',
                     hoverBackgroundColor: 'rgba(13,173,245,1)',
                     hoverBorderColor: 'rgba(13,173,245,1)',
                     data: parameters
@@ -86,7 +86,7 @@ export class CharacterAttributesComponent implements OnInit {
     };
 
     transformationData(max, x) {
-        return Math.round((1 - (max - x) / max) * 1000) / 1000;
+        return Math.round((1 - (max - x) / max) * 1000) / 10;
     }
 
 }
