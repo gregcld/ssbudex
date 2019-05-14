@@ -79,22 +79,22 @@ export class ComparisonComponent implements OnInit {
             datasets: [
                 {
                     label: name1,
-                    backgroundColor: 'rgba(179,181,198,0.2)',
-                    borderColor: 'rgba(179,181,198,1)',
-                    pointBackgroundColor: 'rgba(179,181,198,1)',
+                    backgroundColor: 'rgba(13,173,245,0.2)',
+                    borderColor: 'rgba(13,173,245,1)',
+                    pointBackgroundColor: 'rgba(13,173,245,1)',
                     pointBorderColor: '#fff',
                     pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: 'rgba(179,181,198,1)',
+                    pointHoverBorderColor: 'rgba(13,173,245,1)',
                     data: parameter1
                 },
                 {
                     label: name2,
-                    backgroundColor: 'rgba(255,99,132,0.2)',
-                    borderColor: 'rgba(255,99,132,1)',
-                    pointBackgroundColor: 'rgba(255,99,132,1)',
+                    backgroundColor: 'rgba(255,193,7,0.2)',
+                    borderColor: 'rgba(255,193,7,1)',
+                    pointBackgroundColor: 'rgba(255,193,7,1)',
                     pointBorderColor: '#fff',
                     pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: 'rgba(255,99,132,1)',
+                    pointHoverBorderColor: 'rgba(255,193,7,1)',
                     data: parameter2
                 }
             ]
@@ -102,6 +102,6 @@ export class ComparisonComponent implements OnInit {
     }
 
     transformationData(max, x) {
-        return 1 - (max - x) / max;
+        return (1 - (max - x) / max) * 100;
     }
 }

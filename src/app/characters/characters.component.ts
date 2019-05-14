@@ -3,6 +3,7 @@ import { Character } from '../models/character';
 import { CharacterService } from '../character.service';
 import { TooltipModule } from 'primeng/tooltip';
 import { PanelModule } from 'primeng/panel';
+import { CardModule } from 'primeng/card';
 
 @Component({
     selector: 'app-characters',
