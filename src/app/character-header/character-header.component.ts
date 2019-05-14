@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Character } from '../models/character';
 import { CharacterService } from '../character.service';
 import { ActivatedRoute } from '@angular/router';
+import { CardModule } from 'primeng/card';
 
 @Component({
     selector: 'app-character-header',
