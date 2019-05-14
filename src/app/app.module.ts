@@ -26,6 +26,8 @@ import { TooltipModule } from 'primeng/tooltip';
 import { CardModule } from 'primeng/card';
 import { FilterLicencePipe } from './filter-licence.pipe';
 import { PanelModule } from 'primeng/panel';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 const appRoutes: Routes = [
     { path: 'create', component: ArticleCreationComponent },
@@ -69,7 +71,8 @@ const appRoutes: Routes = [
         ContextMenuModule,
         TooltipModule,
         CardModule,
-        PanelModule
+        PanelModule,
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
     providers: [ArticleService, CharacterService],
     bootstrap: [AppComponent]
