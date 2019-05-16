@@ -1,0 +1,32 @@
+<div class="ui-fluid">
+    <div class="ui-g-12 ui-md-6 ui-lg-4">
+        <!--<p-card header="Research">-->
+        <p-panel header="Research" [toggleable]="true">
+            <div class="ui-md-12">
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon"><i class="pi pi-fw pi-user"></i></span>
+                    <input type="text" pInputText class="searchbox" placeholder="Search by name" [(ngModel)]="filter"
+                        [ngModelOptions]="{standalone:false}">
+                </div>
+            </div>
+            <div class="ui-md-12">
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon"><i class="pi pi-fw pi-user"></i></span>
+                    <input type="text" pInputText class="searchbox" placeholder="Search by licence" [(ngModel)]="term"
+                        [ngModelOptions]="{standalone:false}">
+                </div>
+            </div>
+        </p-panel>
+        <!--</p-card>-->
+    </div>
+    <div class="ui-g-12 allImage">
+        <p-panel header="Characters">
+            <div class="imageCarreContainer"
+                *ngFor="let character of this.characters | filter : filter | filterLicence : term "
+                [routerLink]="['/characters',this.character.id]">
+                <img src="../../assets/images/carre/{{this.character.imageCar}}" width="70px"
+                    pTooltip="{{this.character.name}}" tooltipPosition="top" alt="{{this.character.name}}">
+            </div>
+        </p-panel>
+    </div>
+</div>
