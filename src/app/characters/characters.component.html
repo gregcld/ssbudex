@@ -1,26 +1,38 @@
 <div class="ui-fluid">
     <div class="ui-g-12 ui-md-6 ui-lg-4">
         <!--<p-card header="Research">-->
-        <p-panel header="Research" [toggleable]="true">
+        <p-panel header="Research" aria-hidden="true">
             <div class="ui-md-12">
                 <div class="ui-inputgroup">
-                    <span class="ui-inputgroup-addon"><i class="pi pi-fw pi-user"></i></span>
-                    <input type="text" pInputText class="searchbox" placeholder="Search by name" [(ngModel)]="filter"
-                        [ngModelOptions]="{standalone:false}">
+                    <label for="Nameresearch">
+                        Name :
+                    </label>
+                    <span class="ui-inputgroup-addon">
+                        <i class="pi pi-fw pi-user"></i>
+                    </span>
+                    <input id="Nameresearch" name="Nameresearch" type="text" pInputText class="searchbox"
+                        placeholder="Search by name" [(ngModel)]="filter" [ngModelOptions]="{standalone:false}">
+
                 </div>
             </div>
             <div class="ui-md-12">
                 <div class="ui-inputgroup">
-                    <span class="ui-inputgroup-addon"><i class="pi pi-fw pi-user"></i></span>
-                    <input type="text" pInputText class="searchbox" placeholder="Search by licence" [(ngModel)]="term"
-                        [ngModelOptions]="{standalone:false}">
+                    <label for="Licenceresearch">
+                        Licence :
+                    </label>
+                    <span class="ui-inputgroup-addon">
+                        <i class="pi pi-fw pi-user"></i>
+                    </span>
+                    <input id="Licenceresearch" name="Licenceresearch" type="text" pInputText class="searchbox"
+                        placeholder="Search by licence" [(ngModel)]="term" [ngModelOptions]="{standalone:false}">
+
                 </div>
             </div>
         </p-panel>
         <!--</p-card>-->
     </div>
     <div class="ui-g-12 allImage">
-        <p-panel header="Characters">
+        <p-panel header="Characters" aria-hidden="true">
             <div class="imageCarreContainer"
                 *ngFor="let character of this.characters | filter : filter | filterLicence : term "
                 [routerLink]="['/characters',this.character.id]">
