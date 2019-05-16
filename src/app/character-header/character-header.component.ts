@@ -12,7 +12,8 @@ import { CardModule } from 'primeng/card';
 export class CharacterHeaderComponent implements OnInit {
 
     @Input()
-    character: Character;
+    public character: Character;
+
     constructor(private activatedRoute: ActivatedRoute, private characterService: CharacterService) {
     }
 

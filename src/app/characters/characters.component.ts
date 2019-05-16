@@ -12,7 +12,9 @@ import { CardModule } from 'primeng/card';
 })
 export class CharactersComponent implements OnInit {
 
-    private characters: Character[]
+    public characters: Character[];
+    public filter: string;
+    public term: string;
 
     constructor(private characterService: CharacterService) { }
 

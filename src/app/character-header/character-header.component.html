@@ -1,7 +1,7 @@
 <div class="header">
     <div class="ui-g-12 ui-md-6 ui-lg-8">
         <p-card>
-            <img id="charPict" src="../../assets/images/long/{{this.character.imageLong}}">
+            <img id="charPict" src="../../assets/images/long/{{this.character?.imageLong}}">
         </p-card>
         <!--
         <div class="cover">
@@ -11,10 +11,10 @@
     </div>
     <div class="ui-g-12 ui-md-6 ui-lg-4">
         <p-card header="Information">
-            <p><span class="bold">Nom : </span> {{this.character.name}}</p>
-            <p><span class="bold">Taille : </span> {{this.character.height}} cm </p>
+            <p><span class="bold">Nom : </span> {{this.character?.name}}</p>
+            <p><span class="bold">Taille : </span> {{this.character?.height}} cm </p>
             <p><span class="bold">Licence : </span> <img id="licencePict"
-                    src="../../assets/images/licence/{{this.character.imageLicence}}"></p>
+                    src="../../assets/images/licence/{{this.character?.imageLicence}}"></p>
         </p-card>
     </div>
     <!--

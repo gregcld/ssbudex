@@ -15,13 +15,27 @@
         },
         {
             "name": "assets",
-            "installMode": "lazy",
+            "installMode": "prefetch",
             "updateMode": "prefetch",
             "resources": {
                 "files": [
                     "/assets/**",
                     "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
                 ]
+            }
+        }
+    ],
+    "dataGroups": [
+        {
+            "name": "characters",
+            "urls": [
+                "http://localhost:3000/characters"
+            ],
+            "cacheConfig": {
+                "maxSize": 5,
+                "maxAge": "6h",
+                "timeout": "10s",
+                "strategy": "freshness"
             }
         }
     ]

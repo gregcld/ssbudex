@@ -10,7 +10,7 @@ import { ContextMenuModule } from 'primeng/contextmenu';
 })
 export class MenuComponent implements OnInit {
 
-    private items: MenuItem[];
+    public items: MenuItem[];
 
 
     constructor() { }
