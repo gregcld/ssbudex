@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { ArticleService } from './article.service';
 import { CharacterService } from './character.service';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FilterPipe } from './filter.pipe';
@@ -65,7 +64,7 @@ const appRoutes: Routes = [
         PanelModule,
         ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
-    providers: [ArticleService, CharacterService],
+    providers: [CharacterService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
