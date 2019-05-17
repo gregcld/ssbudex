@@ -20,7 +20,7 @@ export class CharacterHeaderComponent implements OnInit {
     ngOnInit() {
         this.activatedRoute.params.subscribe(params => {
             if (params && params['id']) {
-                this.characterService.get(params['id']).subscribe(character => this.character = character);
+                this.characterService.get(params['id']).subscribe(character => this.character = character[0]);
             }
         });
     }

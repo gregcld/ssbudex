@@ -41,7 +41,7 @@ export class CharacterAttributesComponent implements OnInit {
         this.activatedRoute.params.subscribe(params => {
             if (params && params['id']) {
                 this.characterService.get(params['id']).subscribe(character => {
-                    this.character = character;
+                    this.character = character[0];
                     this.parameters = [this.transformationData(this.weigthMax, this.character.weight), this.transformationData(this.runSpeedMax, this.character.runSpeed), this.transformationData(this.walkSpeedMax, this.character.walkSpeed), this.transformationData(this.airSpeedMax, this.character.airSpeed), this.transformationData(this.fallSpeedMax, this.character.fallSpeed), this.transformationData(this.initialDashMax, this.character.initialDash), this.transformationData(this.airAcceleration, this.character.airAcceleration)];
                     this.drawBarChart(this.character, this.parameters);
                 });
