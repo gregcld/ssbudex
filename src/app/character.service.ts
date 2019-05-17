@@ -11,7 +11,7 @@ export class CharacterService {
     constructor(private http: HttpClient) { }
 
     public getCharacters(): Observable<Character[]> {
-        return this.http.get<Character[]>("http://localhost:3000/characters");
+        return this.http.get<Character[]>('./assets/db.json');
     }
 
     public get(id: number): Observable<Character> {

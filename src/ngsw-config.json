@@ -20,7 +20,7 @@
             "resources": {
                 "files": [
                     "/assets/**",
-                    "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+                    "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani|json)"
                 ]
             }
         }
@@ -29,7 +29,7 @@
         {
             "name": "characters",
             "urls": [
-                "http://localhost:3000/characters"
+                "./assets/db.json"
             ],
             "cacheConfig": {
                 "maxSize": 5,
