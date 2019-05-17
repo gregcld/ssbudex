@@ -14,7 +14,8 @@ html{
 
 
 .ui-panel-titlebar{
-    background-color: #2d353c !important;
+    background-color: #303c2d !important;
+    /*background-color: #29aa09 !important;*/
     color : white !important;
 }
 

@@ -15,7 +15,7 @@
         },
         {
             "name": "assets",
-            "installMode": "lazy",
+            "installMode": "prefetch",
             "updateMode": "prefetch",
             "resources": {
                 "files": [
@@ -32,9 +32,9 @@
                 "./assets/db.json"
             ],
             "cacheConfig": {
-                "maxSize": 5,
+                "maxSize": 100,
                 "maxAge": "3600h",
-                "timeout": "10s",
+                "timeout": "20s",
                 "strategy": "freshness"
             }
         }
