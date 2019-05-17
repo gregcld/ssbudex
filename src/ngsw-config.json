@@ -32,9 +32,9 @@
                 "./assets/db.json"
             ],
             "cacheConfig": {
-                "maxSize": 100,
+                "maxSize": 250,
                 "maxAge": "3600h",
-                "timeout": "20s",
+                "timeout": "30s",
                 "strategy": "freshness"
             }
         }
