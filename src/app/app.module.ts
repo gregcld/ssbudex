@@ -4,11 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { ArticleComponent } from './article/article.component';
-import { ArticlesComponent } from './articles/articles.component';
 import { ArticleService } from './article.service';
 import { CharacterService } from './character.service';
-import { ArticleCreationComponent } from './article-creation/article-creation.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FilterPipe } from './filter.pipe';
 import { CharacterHeaderComponent } from './character-header/character-header.component';
@@ -30,9 +27,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 const appRoutes: Routes = [
-    { path: 'create', component: ArticleCreationComponent },
-    { path: 'articles', component: ArticlesComponent },
-    { path: 'articles/:id', component: ArticleComponent },
     { path: 'characters', component: CharactersComponent },
     { path: 'characters/:id', component: CharacterComponent },
     { path: 'comparison', component: ComparisonComponent },
@@ -42,9 +36,6 @@ const appRoutes: Routes = [
 @NgModule({
     declarations: [
         AppComponent,
-        ArticleComponent,
-        ArticlesComponent,
-        ArticleCreationComponent,
         FilterLicencePipe,
         FilterPipe,
         CharacterHeaderComponent,
